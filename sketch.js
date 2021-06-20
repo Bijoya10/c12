@@ -71,17 +71,17 @@ function draw() {
     spawnTitans()
 
     if (keyDown(UP_ARROW)) {
-      player.velocityY = player.velocityX - 2
+      playerSprite.y = playerSprite.y - 2
     }
 
     if (keyDown(DOWN_ARROW)) {
-      player.velocity = player.velocityY + 2
+      playerSprite.y = playerSprite.y + 2
     }
     if (keyDown(RIGHT_ARROW)) {
-      player.velocityX = player.velocityX + 2
+      playerSprite.x = playerSprite.x + 2
     }
     if (keyDown(LEFT_ARROW)) {
-      player.velocityX = player.velocityX - 2
+      playerSprite.x = playerSprite.x- 2
     }
 
   }
